@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+
+#mybatis连接mysql
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/store?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: wjbest66
+
+user:
+  addressMax: 20
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
