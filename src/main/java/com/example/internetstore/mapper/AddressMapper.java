@@ -10,6 +10,8 @@ public interface AddressMapper {
 
     Integer countByUid(Integer uid);
 
+
+
     List<Address> findByUid(Integer uid);
 
     Integer UpdateDefaultAddress( Integer aid);
