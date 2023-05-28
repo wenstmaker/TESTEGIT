@@ -11,6 +11,8 @@ public interface UserMapper {
      */
     Integer insert(User user);
 
+
+
     /**
      *
      * @param username  根据name查询当前用户
