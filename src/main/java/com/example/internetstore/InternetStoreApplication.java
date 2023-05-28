@@ -12,6 +12,7 @@ public class InternetStoreApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(InternetStoreApplication.class, args);
+        //测试test
     }
 
 }
